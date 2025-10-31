@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_y77kALOGEfCr_OlLus27eQ" name="task 4 uml" visibility="package">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_y_i4sLOGEfCr_OlLus27eQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_7nNSELOGEfCr_OlLus27eQ" name="society leader app" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GnF54LPxEfC92uOqaHavuQ" name="membership module " aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hz65YLPxEfC92uOqaHavuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxhssLPxEfC92uOqaHavuQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ObOxwLOHEfCr_OlLus27eQ" name="membership module"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_UcWmsLOHEfCr_OlLus27eQ" name="notification service"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_bbh_ULOHEfCr_OlLus27eQ" name="reporting interface"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_fTtKwLOHEfCr_OlLus27eQ" name="union officer system"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_iJeeALOHEfCr_OlLus27eQ" name="USU operation system"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_xswwQLOIEfCr_OlLus27eQ" name="createEvent()"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_22Jr8LOIEfCr_OlLus27eQ" name="sendReport()"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_51a5cLOIEfCr_OlLus27eQ" name="approveEvent()"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_mzPYoLPuEfC92uOqaHavuQ" name="Component13"/>
+</uml:Model>

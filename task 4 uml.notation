@@ -479,4 +479,12 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R9SaEbinEfChdbjp1IxX0w" id="(0.6666666666666666,0.0)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_6-6kYLinEfChdbjp1IxX0w" type="PapyrusUMLComponentDiagram" name="NewComponentDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_6-6kYbinEfChdbjp1IxX0w" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6-6kYrinEfChdbjp1IxX0w"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6-6kY7inEfChdbjp1IxX0w" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+      <owner xmi:type="uml:Model" href="task%204%20uml.uml#_y77kALOGEfCr_OlLus27eQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="task%204%20uml.uml#_y77kALOGEfCr_OlLus27eQ"/>
+  </notation:Diagram>
 </xmi:XMI>

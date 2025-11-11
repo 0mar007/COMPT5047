@@ -85,6 +85,30 @@
           <element xmi:type="uml:Interface" href="task%204%20uml.uml#_tE1RoLw1EfCzvfk6sXW8vA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tE2fwbw1EfCzvfk6sXW8vA" x="174" y="389" width="20" height="20"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_KRBFcL9LEfCcqqoK0jarrA" type="Component_PackagedElementShape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_KROg0L9LEfCcqqoK0jarrA" type="Component_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_KRPH4L9LEfCcqqoK0jarrA" type="Component_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KRQWAL9LEfCcqqoK0jarrA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_KRVOgL9LEfCcqqoK0jarrA" type="Component_StructureCompartment_CCN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_KRVOgb9LEfCcqqoK0jarrA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRVOgr9LEfCcqqoK0jarrA"/>
+          </children>
+          <element xmi:type="uml:Component" href="task%204%20uml.uml#_KJPpgL9LEfCcqqoK0jarrA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRBsgL9LEfCcqqoK0jarrA" x="254" y="269"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_P2jKkL9LEfCcqqoK0jarrA" type="Component_PackagedElementShape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_P2jxoL9LEfCcqqoK0jarrA" type="Component_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_P2jxob9LEfCcqqoK0jarrA" type="Component_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_P2jxor9LEfCcqqoK0jarrA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_P2jxo79LEfCcqqoK0jarrA" type="Component_StructureCompartment_CCN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_P2jxpL9LEfCcqqoK0jarrA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2jxpb9LEfCcqqoK0jarrA"/>
+          </children>
+          <element xmi:type="uml:Component" href="task%204%20uml.uml#_P2C0QL9LEfCcqqoK0jarrA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2jKkb9LEfCcqqoK0jarrA" x="314" y="369"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_7nSxobOGEfCr_OlLus27eQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7nSxorOGEfCr_OlLus27eQ"/>
       </children>

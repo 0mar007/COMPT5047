@@ -32,6 +32,8 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_4lhfsLwLEfCzvfk6sXW8vA" name="event detail / theme manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8_osALw2EfCzvfk6sXW8vA" client="_4lhfsLwLEfCzvfk6sXW8vA" supplier="_6STjELw2EfCzvfk6sXW8vA" contract="_6STjELw2EfCzvfk6sXW8vA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_KJPpgL9LEfCcqqoK0jarrA" name="society admin modual "/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_P2C0QL9LEfCcqqoK0jarrA" name="Reporting Interface"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_ObOxwLOHEfCr_OlLus27eQ" name="Notification Service"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_fTtKwLOHEfCr_OlLus27eQ" name="union officer system"/>

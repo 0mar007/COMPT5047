@@ -53,11 +53,11 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_CGkvcbwdEfCzvfk6sXW8vA" y="15"/>
           </children>
           <element xmi:type="uml:Interface" href="task%204%20uml.uml#_9_7qMLwcEfCzvfk6sXW8vA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ALh0bwcEfCzvfk6sXW8vA" x="34" y="29" width="21" height="20"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ALh0bwcEfCzvfk6sXW8vA" x="54" y="29" width="21" height="20"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_CxmaIL4lEfCsfbSgcXbDuw" type="Interface_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_CxnBML4lEfCsfbSgcXbDuw" type="Interface_NameLabel">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_CxnoQL4lEfCsfbSgcXbDuw" x="60" y="20"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CxnoQL4lEfCsfbSgcXbDuw" y="-20"/>
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_CxnoQb4lEfCsfbSgcXbDuw" type="Interface_FloatingNameLabel">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_CxnoQr4lEfCsfbSgcXbDuw" y="15"/>
@@ -592,6 +592,32 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p-IEAr4lEfCsfbSgcXbDuw" points="[140, 310, -643984, -643984]$[140, 480, -643984, -643984]$[200, 480, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p_IJkL4lEfCsfbSgcXbDuw" id="(0.6666666666666666,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p_IJkb4lEfCsfbSgcXbDuw" id="(0.0,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__XfBAL9TEfCcqqoK0jarrA" type="InterfaceRealization_Edge" source="_KRBFcL9LEfCcqqoK0jarrA" target="_VoF_AL4lEfCsfbSgcXbDuw">
+      <children xmi:type="notation:DecorationNode" xmi:id="__XgPIL9TEfCcqqoK0jarrA" type="InterfaceRealization_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__XgPIb9TEfCcqqoK0jarrA" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__XgPIr9TEfCcqqoK0jarrA" type="InterfaceRealization_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__XgPI79TEfCcqqoK0jarrA" y="30"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__XfBAb9TEfCcqqoK0jarrA"/>
+      <element xmi:type="uml:InterfaceRealization" href="task%204%20uml.uml#__WMnkL9TEfCcqqoK0jarrA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__XfBAr9TEfCcqqoK0jarrA" points="[280, 360, -643984, -643984]$[220, 360, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__bO4kL9TEfCcqqoK0jarrA" id="(0.0,0.2857142857142857)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__bO4kb9TEfCcqqoK0jarrA" id="(1.0,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_GRbUUL9UEfCcqqoK0jarrA" type="InterfaceRealization_Edge" source="_P2jKkL9LEfCcqqoK0jarrA" target="_d5Qj8L4lEfCsfbSgcXbDuw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_GRb7YL9UEfCcqqoK0jarrA" type="InterfaceRealization_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GRb7Yb9UEfCcqqoK0jarrA" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GRb7Yr9UEfCcqqoK0jarrA" type="InterfaceRealization_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GRb7Y79UEfCcqqoK0jarrA" y="30"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_GRbUUb9UEfCcqqoK0jarrA"/>
+      <element xmi:type="uml:InterfaceRealization" href="task%204%20uml.uml#_GQzCML9UEfCcqqoK0jarrA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GRbUUr9UEfCcqqoK0jarrA" points="[340, 480, -643984, -643984]$[200, 460, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GSlK4L9UEfCcqqoK0jarrA" id="(0.0,0.5714285714285714)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GSlx8L9UEfCcqqoK0jarrA" id="(1.0,1.0)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_AGoOALaYEfCwzZcMhsyJjQ" type="PapyrusUMLComponentDiagram" name="task 4 componet " measurementUnit="Pixel">

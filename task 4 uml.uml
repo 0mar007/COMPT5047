@@ -6,8 +6,8 @@
   <packagedElement xmi:type="uml:Component" xmi:id="_7nNSELOGEfCr_OlLus27eQ" name="society leader app" visibility="private">
     <ownedAttribute xmi:type="uml:Port" xmi:id="_OX55cL4mEfCsfbSgcXbDuw" name="Port15" aggregation="composite"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_9_7qMLwcEfCzvfk6sXW8vA" name="login"/>
-    <nestedClassifier xmi:type="uml:Interface" xmi:id="_A6DpsL4lEfCsfbSgcXbDuw" name="Interface32"/>
-    <nestedClassifier xmi:type="uml:Interface" xmi:id="_tNdpMLw1EfCzvfk6sXW8vA" name="upload media"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_A6DpsL4lEfCsfbSgcXbDuw" name="manageEvents"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_tNdpMLw1EfCzvfk6sXW8vA" name="interface"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_tE1RoLw1EfCzvfk6sXW8vA" name="notification"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_DDnTMLlvEfCdB8ADHnn9OA" name="app GUI">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_X_UjYLwoEfCzvfk6sXW8vA" client="_DDnTMLlvEfCdB8ADHnn9OA" supplier="_9_7qMLwcEfCzvfk6sXW8vA" contract="_9_7qMLwcEfCzvfk6sXW8vA"/>
@@ -32,8 +32,12 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_4lhfsLwLEfCzvfk6sXW8vA" name="event detail / theme manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8_osALw2EfCzvfk6sXW8vA" client="_4lhfsLwLEfCzvfk6sXW8vA" supplier="_6STjELw2EfCzvfk6sXW8vA" contract="_6STjELw2EfCzvfk6sXW8vA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_KJPpgL9LEfCcqqoK0jarrA" name="society admin modual "/>
-    <packagedElement xmi:type="uml:Component" xmi:id="_P2C0QL9LEfCcqqoK0jarrA" name="Reporting Interface"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_KJPpgL9LEfCcqqoK0jarrA" name="society admin modual ">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__WMnkL9TEfCcqqoK0jarrA" client="_KJPpgL9LEfCcqqoK0jarrA" supplier="_tNdpMLw1EfCzvfk6sXW8vA" contract="_tNdpMLw1EfCzvfk6sXW8vA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_P2C0QL9LEfCcqqoK0jarrA" name="Reporting Interface">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_GQzCML9UEfCcqqoK0jarrA" client="_P2C0QL9LEfCcqqoK0jarrA" supplier="_tE1RoLw1EfCzvfk6sXW8vA" contract="_tE1RoLw1EfCzvfk6sXW8vA"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_ObOxwLOHEfCr_OlLus27eQ" name="Notification Service"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_fTtKwLOHEfCr_OlLus27eQ" name="union officer system"/>

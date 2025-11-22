@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_S09Z0McJEfCp6vW68H-aJA" name="task 5a">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_S09Z0McJEfCp6vW68H-aJA" name="task 5a" visibility="protected">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_S4EYMMcJEfCp6vW68H-aJA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_U8j4IMcMEfCp6vW68H-aJA" name="Class2"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_R_jpkMcOEfCp6vW68H-aJA" name="eventCommands">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bp6ssMcnEfCp6vW68H-aJA" name="createEvent" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4eH-QMcvEfCp6vW68H-aJA" name="updateEvent">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ajNt4McoEfCp6vW68H-aJA" name="createEvent" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Nb7AIMcrEfCp6vW68H-aJA" name="e" type="_Ha8MkMcUEfCp6vW68H-aJA" effect="create"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6b3vQMctEfCp6vW68H-aJA" name=":" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <raisedException xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5o2IIMczEfCp6vW68H-aJA" name="uploadevent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5o2IIcczEfCp6vW68H-aJA" name="end"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_WhKMgMcOEfCp6vW68H-aJA" name="eventQueries"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3FUpAMcTEfCp6vW68H-aJA" name="eventManagerService"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6HBfcMcTEfCp6vW68H-aJA" name="eventRepository"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ha8MkMcUEfCp6vW68H-aJA" name="event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_b0vTEMcbEfCp6vW68H-aJA" name="Property1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jAx4cMcaEfCp6vW68H-aJA" name="validationHandler"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_m2QVMMcaEfCp6vW68H-aJA" name="promotionHandler"/>
 </uml:Model>

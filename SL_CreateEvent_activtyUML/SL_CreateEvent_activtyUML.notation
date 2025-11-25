@@ -282,6 +282,14 @@
               <element xmi:type="uml:OpaqueAction" href="SL_CreateEvent_activtyUML.uml#_8vNs0LHiEfCNO6WSyGsYTQ"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vZTALHiEfCNO6WSyGsYTQ" x="18" y="670"/>
             </children>
+            <children xmi:type="notation:Shape" xmi:id="_BbZ5sMpOEfCzGLgUSQ2pLQ" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BbagwMpOEfCzGLgUSQ2pLQ" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_BbagwcpOEfCzGLgUSQ2pLQ" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_BbagwspOEfCzGLgUSQ2pLQ" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="SL_CreateEvent_activtyUML.uml#_BaKjkMpOEfCzGLgUSQ2pLQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbickMpOEfCzGLgUSQ2pLQ" x="98" y="450"/>
+            </children>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_havbMbP0EfC92uOqaHavuQ"/>
           </children>
           <element xmi:type="uml:ActivityPartition" href="SL_CreateEvent_activtyUML.uml#_haYO0LP0EfC92uOqaHavuQ"/>
@@ -296,6 +304,16 @@
           </children>
           <element xmi:type="uml:ActivityFinalNode" href="SL_CreateEvent_activtyUML.uml#_G998gLXYEfC5mYW6rYfuBg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G-YMMbXYEfC5mYW6rYfuBg" x="535" y="784"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5I8UQMpNEfCzGLgUSQ2pLQ" type="InitialNode_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5I9iYMpNEfCzGLgUSQ2pLQ" type="InitialNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5I9iYcpNEfCzGLgUSQ2pLQ" y="15"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_5I9iYspNEfCzGLgUSQ2pLQ" type="InitialNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5I9iY8pNEfCzGLgUSQ2pLQ" y="15"/>
+          </children>
+          <element xmi:type="uml:InitialNode" href="SL_CreateEvent_activtyUML.uml#_5H4kUMpNEfCzGLgUSQ2pLQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5I8UQcpNEfCzGLgUSQ2pLQ" x="1175" y="524"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tklvL7BVEfCapYgnQZ2CxQ"/>
       </children>

@@ -39,7 +39,6 @@
       <node xmi:type="uml:OpaqueAction" xmi:id="_bk2bcLPzEfC92uOqaHavuQ" name="show venue is unailable message" incoming="_bk2bWLPzEfC92uOqaHavuQ" outgoing="_bk2bV7PzEfC92uOqaHavuQ"/>
       <node xmi:type="uml:FlowFinalNode" xmi:id="_bk2bcbPzEfC92uOqaHavuQ" name="FlowFinalNode22" incoming="_bk2bV7PzEfC92uOqaHavuQ"/>
     </ownedBehavior>
-    <ownedBehavior xmi:type="uml:Activity" xmi:id="_gwhPgMpbEfCzGLgUSQ2pLQ" name="Activity77"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_J-kNkLHkEfCNO6WSyGsYTQ" target="_bsn1oLHiEfCNO6WSyGsYTQ" source="_CH-6sLBWEfCapYgnQZ2CxQ"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_DV6AwLXEEfC5mYW6rYfuBg" target="_UdGnsLXDEfC5mYW6rYfuBg" source="_EO1gELHjEfCNO6WSyGsYTQ"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_maTzILXOEfC5mYW6rYfuBg" inPartition="_haYO0LP0EfC92uOqaHavuQ" target="_Cu9J8LXOEfC5mYW6rYfuBg" source="_UdGnsLXDEfC5mYW6rYfuBg"/>

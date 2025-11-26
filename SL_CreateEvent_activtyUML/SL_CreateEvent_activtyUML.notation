@@ -399,6 +399,30 @@
           <element xmi:type="uml:CentralBufferNode" href="SL_CreateEvent_activtyUML.uml#_PtIccMpaEfCzGLgUSQ2pLQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtnkocpaEfCzGLgUSQ2pLQ" x="575" y="44"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_gxcckMpbEfCzGLgUSQ2pLQ" type="Activity_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_gxdDoMpbEfCzGLgUSQ2pLQ" type="Activity_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_gxdqsMpbEfCzGLgUSQ2pLQ" type="Activity_KeywordLabel_CN"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_gxdqscpbEfCzGLgUSQ2pLQ" type="Activity_ParameterCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_gxeRwMpbEfCzGLgUSQ2pLQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_gxeRwcpbEfCzGLgUSQ2pLQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gxeRwspbEfCzGLgUSQ2pLQ"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_gxeRw8pbEfCzGLgUSQ2pLQ" type="Activity_PreconditionCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_gxeRxMpbEfCzGLgUSQ2pLQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_gxeRxcpbEfCzGLgUSQ2pLQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gxeRxspbEfCzGLgUSQ2pLQ"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_gxeRx8pbEfCzGLgUSQ2pLQ" type="Activity_PostconditionCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_gxeRyMpbEfCzGLgUSQ2pLQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_gxeRycpbEfCzGLgUSQ2pLQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gxeRyspbEfCzGLgUSQ2pLQ"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_gxeRy8pbEfCzGLgUSQ2pLQ" type="Activity_ActivityNodeCompartment_CN">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gxeRzMpbEfCzGLgUSQ2pLQ"/>
+          </children>
+          <element xmi:type="uml:Activity" href="SL_CreateEvent_activtyUML.uml#_gwhPgMpbEfCzGLgUSQ2pLQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gxcckcpbEfCzGLgUSQ2pLQ" x="1315" y="664"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tklvL7BVEfCapYgnQZ2CxQ"/>
       </children>
       <element xmi:type="uml:Activity" href="SL_CreateEvent_activtyUML.uml#_pTK9QLBVEfCapYgnQZ2CxQ"/>
